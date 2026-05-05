@@ -1,1 +1,9 @@
-#example config
+# config
+GENERATE_KEY=true
+RSA_KEY_SIZE=4096
+USE_RSA=false
+USE_EC=true
+EC_CURVE=P-384
+
+#Usually can be left default
+OPENSSL_BINARY=/usr/bin/openssl
