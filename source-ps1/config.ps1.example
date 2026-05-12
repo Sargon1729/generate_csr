@@ -4,9 +4,9 @@ $RSA_KEY_SIZE=4096
 $USE_RSA=$false
 $USE_EC=$true
 $EC_CURVE="P-384"
-$ENCRYPT_KEY=false
+$ENCRYPT_KEY=$false
 $KEY_CIPHER="aria128" #aes128, aes192, aes256, aria128, aria192, aria256, camellia128, camellia192, camellia256
 
 
 #Usually can be left default
-$OPENSSL_BINARY="/usr/bin/openssl"
+$OPENSSL_BINARY="C:\Program Files\OpenSSL-Win64\bin\openssl.exe"
