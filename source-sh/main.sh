@@ -56,7 +56,8 @@ if $GENERATE_KEY; then
     if [ $rc = 0 ]; then
         write_success "Successfully generated private key"
     else
-        write_error "Errors encountered when generating private key"
+        write_error "Errors encountered when generating private key"#
+        exit 1
     fi
 
 else
